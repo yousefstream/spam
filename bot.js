@@ -77,13 +77,13 @@ if (!rank) return message.reply(' ')
 
 client2.on('message', message => {
     if(message.content === prefix+'راتب'){
-        message.channel.send('#daily')
+        message.channel.send('t!daily')
     }
 });
 
 client2.on('message', message => {
     if(message.content === prefix+'مبلغ'){
-        message.channel.send('#credits')
+        message.channel.send('t!credits')
     }
 });
 
