@@ -26,13 +26,13 @@ client2.on('ready', () => {
 
 client.on('message', message => {
     if(message.content === prefix+'راتب'){
-        message.channel.send('#daily')
+        message.channel.send('t!daily')
     }
 });
 
 client.on('message', message => {
     if(message.content === prefix+'مبلغ'){
-        message.channel.send('#credits')
+        message.channel.send('t!credits')
     }
 });
 
